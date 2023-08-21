@@ -247,7 +247,7 @@ class ATT_inception_time(nn.Module):
     def forward(self, inputs, feature): 
         att = self.local_att(inputs)
         for i in range(812):
-            att[:,:,i*900:(i+1)*900] = F.sigmoid(att[:,:,i*900:(i+1)*900].clone())
+            att[:,:,i*900:(i+1)*900] = F.softmax(att[:,:,i*900:(i+1)*900].clone(), dim = 2)
         
         inputs = inputs*att
         inputs = self.conv1d(att)

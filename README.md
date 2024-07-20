@@ -20,7 +20,7 @@
 
 ## 딥러닝 모델 구조
 <div align="center">
-  <img src="figure/model.png" alt="model structure" width="50%">
+  <img src="figure/model.png" alt="model structure" width="100%">
 </div>
 
 <p align="center">
@@ -36,7 +36,7 @@
 
 ## Attention 기반 시각화
 <div align="center">
-  <img src="figure/attention.png" alt="Attention" width="50%">
+  <img src="figure/attention.png" alt="Attention" width="70%">
 </div>
 
 

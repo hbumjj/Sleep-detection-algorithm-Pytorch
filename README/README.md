@@ -20,10 +20,12 @@
 
 ## 딥러닝 모델 구조
 <div align="center">
-  <img src="D:\Paper_IMU_sleep_stage\인용\그림\모델구조_수정.jpg" alt="model structure" width="50%">
+  <img src="model.tif" alt="model structure" width="50%">
 </div>
-그림 1: Inception time과 Temporal Convolutional Network를 기반으로 한 딥러닝 모델 구조
 
+<p align="center">
+그림 1: Inception time과 Temporal Convolutional Network를 기반으로 한 딥러닝 모델 구조
+</p>
 
 ## 결과
 
@@ -34,9 +36,13 @@
 
 ## Attention 기반 시각화
 <div align="center">
-  <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12911-023-02292-3/MediaObjects/12911_2023_2292_Fig2_HTML.png?as=webp" alt="Attention" width="50%">
+  <img src="attention.tif" alt="Attention" width="50%">
 </div>
+
+
+<p align="center">
 그림 2: Attention heat map을 이용한 모델 결과 시각화
+</p>
 
 ## 결론
 
